@@ -1,0 +1,36 @@
+{
+  "name": "hnbot",
+  "version": "0.0.1",
+  "description": "AI chatbot based on RiveScript using Socket.IO",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.74.0",
+    "rivescript": "^1.19.0",
+    "socket.io": "1.2.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/heiswayi/hnbot.git"
+  },
+  "keywords": [
+    "hnbot",
+    "artificial",
+    "intelligence",
+    "chatbot",
+    "rivescript",
+    "jquery",
+    "terminal",
+    "bootstrap"
+  ],
+  "author": "Heiswayi Nrird",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heiswayi/hnbot/issues"
+  },
+  "homepage": "https://github.com/heiswayi/hnbot#readme"
+}
