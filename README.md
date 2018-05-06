@@ -1,20 +1,26 @@
-# chat-bot Framework
+# hnbot
 
-A framework in the making where a developer can without code spin up a chat bot with it`s own brain with few available situations 
+hnbot is an AI chatbot built for Node.js. hnbot's AI engine and brain markup language are based on [RiveScript](http://www.rivescript.com/) and served for web browser using [Socket.IO](https://socket.io/). Web interface of hnbot is built using [Bootstrap](https://getbootstrap.com/), [jQueryTerminal](https://terminal.jcubic.pl/) and [jquery-mousewheel](https://github.com/jquery/jquery-mousewheel).
 
+## Installing / Getting started
 
-The features of the chat bot would be :
-1. easily customizable
-2. can process JSON Requests and Responses
-3. Handle actions differently from the user talking to the bot
+```shell
+git clone https://github.com/heiswayi/hnbot.git
+cd hnbot
+npm install
+npm start
+```
 
-The Tech Stack used to make it would include:
+Once everything's okay, open your web browser and visit http://localhost:3000 to start chatting with the bot.
 
-1. This is the source code for a very simple chat example used for 
-the [Getting Started](http://socket.io/get-started/chat/) guide 
-of the Socket.IO website.
+### Prerequisites
 
+If you start fresh, you may need to install [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/).
 
-2. This includes code from RiveScript https://github.com/aichaos/rivescript-js 
+### Creating your own bot brain
 
-The official RiveScript website, http://www.rivescript.com/
+hnbot's brain is using RiveScript markup language. You can design your own AI chatbot based on [RiveScript](http://www.rivescript.com/). All you need to is to create your own `.rive` file and put it into `brain` directory. If you need more examples, you can take a look on the provided `.rive` files reside in the `brain` directory.
+
+## Licensing
+
+[MIT](LICENSE.md)
